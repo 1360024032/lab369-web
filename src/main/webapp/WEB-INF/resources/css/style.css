@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {
+    margin: 0;
+    padding: 0;
+}
+div {
+      display: block;
+}
+body, html {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+img, input, button, textarea {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em, u {
+    font-style: normal;
+    text-decoration: none;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+.menu {
+  border:  1px solid block;
+  height: 100%;
+  min-width: 1000px;
+
+}
+
+
+
+.cluster-con  h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: green;
+}
+
+.cluster-con  {
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  padding: 10px 0px 20px 22px;
+  display: inline-block;
+  vertical-align: top;
+  width: 620px;
+  position: relative;
+  margin-bottom: 12px;
+  margin-top: 100px;
+  margin-left: 300px;
+  background-color: #f9f9f9;
+
+}
+
+.tabledata{
+  font-size: 20px;
+  MARGIN-TOP: 5px; 
+  MARGIN-LEFT: 5px; 
+  MARGIN-RIGHT: 5px; 
+  MARGIN-BOTTOM: 15px; 
+  VERTICAL-ALIGN: top; 
+  PADDING: 4px; 
+
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+  
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+
+  border:1px solid #e5e5e5;
+
+
+
+}
+
+.dataInput{
+
+font-size: 20px;
+
+}
+
+
+
+
+
+.vecontrolButton{
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background-color: #f9f9f9;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+
+}
+
+
+
+.active {
+
+  margin: 0px 0px 0 0;
+
+}
+.active:hover {
+    background-color: #e5e5e5;
+}
+
+
+
+
+
+
+
+
